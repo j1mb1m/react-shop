@@ -60,7 +60,7 @@ export default class Contacts extends Component {
               </ul>
             </div>
             <div className="cards">
-              <Card title="Белая куртка" price="2900 грн" size="XXS XS S M L" new="new" img=".img/catalog/Item1.jpg" />
+              <Card title="Белая куртка" price="2900 грн" size="XXS XS S M L" new="new" img="./img/catalog/Item1.jpg" />
               <Card title="Синее пальто" price="3150 грн" size="XS M L" new="" img="./img/catalog/Item2.jpg" />
               <Card title="Бежевая шуба" price="4200 грн" size="XS M L" new="" img="./img/catalog/Item3.jpg" />
               <Card title="Синяя парка" price="2900 грн" size="XXS XS S M L" new="new" img="./img/catalog/Item4.jpg" />
