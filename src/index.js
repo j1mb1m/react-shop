@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -15,6 +15,7 @@ ReactDOM.render(
          <Router> 
           <Routes>
           <Route exact path="/" element={<App />} />
+          <Route exact path="/react-shop" element={<App />} />
           <Route exact path="/catalog" element={<Catalog />} />
           <Route exact path="/contacts" element={<Contacts />} />
         </Routes>

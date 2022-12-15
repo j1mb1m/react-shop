@@ -24,7 +24,7 @@ export default class Contacts extends Component {
                 <path d="M3.88906 5L0 1.11094L1.11094 0L6.11094 5L1.11094 10L0 8.88906L3.88906 5Z" fill="#E0BEA2" />
               </svg></div>
             </li>
-            <li><Link to='/catalog'>Каталог</Link> 
+            <li><Link to='/'>Каталог</Link> 
             </li></ul>
             </nav>
         </div>
