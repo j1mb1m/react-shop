@@ -22,8 +22,8 @@ function Footer() {
           <ul>
             <li>Контакты</li>
             <li><span>
-              <img src="/img/logo_insta.svg" alt="Instagram" />
-              <img src="/img/logo_twitter.svg" alt="Twitter" />
+              <img src="/react-shop/img/logo_insta.svg" alt="Instagram" />
+              <img src="/react-shop/img/logo_twitter.svg" alt="Twitter" />
             </span></li>
             <li>+38(073) 096 36 44</li>
             <li>info@yanki.com</li>

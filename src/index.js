@@ -1,14 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Contacts from "./pages/Contacts";
+import Catalog from "./pages/Catalog";
+
+global._babelPolyfill = false;
 
 ReactDOM.render(
   <React.StrictMode>
-      <App />
+         <Router> 
+          <Routes>
+          <Route exact path="/" element={<App />} />
+          <Route exact path="/catalog" element={<Catalog />} />
+          <Route exact path="/contacts" element={<Contacts />} />
+        </Routes>
+
+      </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 );

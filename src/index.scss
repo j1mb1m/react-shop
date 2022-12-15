@@ -37,6 +37,10 @@ p {
   margin-bottom: 0;
 }
 
+nav a {
+  cursor: pointer;
+}
+
 .App {
   position: relative;
 }
@@ -105,20 +109,20 @@ p {
     height: 40px;
   }
 
-  ul {
+  ul,
+  nav {
     display: flex;
     padding-top: 10px;
   }
 
-  .shopService {
-    li {
-      padding-right: 25px;
 
-      a {
-        color: white;
-      }
+  nav {
+    a {
+      color: white;
+      margin-right: 25px;
     }
   }
+
 
   .countrySettings {
     color: white;
@@ -190,12 +194,12 @@ p {
     color: #000;
   }
 
-  .shopService {
-    li a {
+  nav {
+    a {
       color: #000;
     }
 
-    li:nth-child(even) a {
+    a:nth-child(even) {
       color: #E0BEA2;
     }
 
@@ -218,12 +222,14 @@ p {
 .category {
   margin-top: 100px;
 
+  .iqsuro,
   .hTXjKY {
     max-width: 1140px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
+  .iqsuro .buttons button,
   .hTXjKY .buttons button {
     width: 40px;
     height: 40px;
@@ -394,6 +400,7 @@ footer {
   a {
     color: #252525;
   }
+
   ul {
     display: flex;
 
@@ -420,7 +427,7 @@ footer {
   margin-left: 0;
   margin-right: 5px;
   flex: none;
-  
+
 
   color: #252525;
 
@@ -439,14 +446,17 @@ footer {
 .filter {
   margin-bottom: 30px;
   margin-left: 15px;
+
   ul {
     display: flex;
     justify-content: left;
   }
+
   li {
     margin-right: 53px;
   }
 }
+
 .cards {
   display: flex;
   flex-wrap: wrap;
